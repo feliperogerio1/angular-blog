@@ -1,0 +1,17 @@
+
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.articles-main {
+    width: 50%;
+    margin-left: 35px;
+}
+
+.articles-others {
+    width: 50%;
+    margin-right: 35px;
+}

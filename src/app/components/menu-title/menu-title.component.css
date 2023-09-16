@@ -1,0 +1,14 @@
+.container-menu-title {
+    margin-top: 20px;
+}
+
+.hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 2px solid #FFFFFF;
+}
+
+.container-h1 {
+    display: flex;
+    justify-content: center;
+}
