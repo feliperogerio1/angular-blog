@@ -3,12 +3,23 @@
 }
 
 .hr {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     border-top: 2px solid #FFFFFF;
 }
 
 .container-h1 {
     display: flex;
     justify-content: center;
+}
+
+.container-h1 > h1{
+    font-size: 3rem;
+}
+
+.container-h1 > img {
+    width: 5%;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
 }

@@ -1,23 +1,72 @@
 .container-big-card {
     width: 100%;
-    height: 500px;
     display: flex;
     flex-direction: column;
 }
 
-.big-card-image > img {
-    width: 85%;
-    height: 300px;
+@media screen and (min-width: 319px) {
+    .big-card-image > a> img {
+        width: 100%;
+        height: 100px;
+    }
+
+    .big-card-title > h1 {
+        font-size: 1rem;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .big-card-description > a > p {
+        font-size: .6rem;
+        width: 100%;
+        margin-top: 10px;
+    }
 }
 
-.big-card-title > h1 {
-    font-size: 2rem;
-    width: 85%;
-    margin-top: 20px;
+@media screen and (min-width: 375px) {
+    .big-card-image > a> img {
+        height: 125px;
+    }
 }
 
-.big-card-description > p {
-    font-size: .8rem;
-    width: 85%;
-    margin-top: 20px;
+@media screen and (min-width: 425px) {
+    .big-card-image > a> img {
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .big-card-image > a> img {
+        height: 300px;
+    }
+
+    .big-card-title > h1 {
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+
+    .big-card-description > a > p {
+        font-size: .8rem;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container-big-card {
+        height: 500px;
+    }
+
+    .big-card-image > a> img {
+        width: 85%;
+    }
+
+    .big-card-title > h1 {
+        width: 85%;
+        margin-top: 20px;
+    }
+
+    .big-card-description > a > p {
+        width: 85%;
+        margin-top: 20px;
+    }
 }

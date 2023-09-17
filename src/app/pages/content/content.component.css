@@ -1,0 +1,62 @@
+.container-content {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    width: 80%;
+}
+
+.title > h1 {
+    font-size: 2rem;
+}
+
+.image > img {
+    width: 256px;
+    height: 192px;
+}
+
+.description {
+    width: 80%;
+}
+
+.description > p {
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 319px) {
+    .title {
+        margin-bottom: 15px;
+    }
+    .title > h1 {
+        font-size: 1.3rem;
+    }
+    .description {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .title {
+        margin-bottom: 20px;
+    }
+    .title > h1 {
+        font-size: 1.8rem;
+    }
+    .image > img {
+        width: 450px;
+        height: 300px;
+    }
+    .description {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .title > h1 {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,35 @@
+@media screen and (min-width: 319px) {
+    .container-h1 > h1{
+        font-size: 1.8rem;
+    }
+    .container-h1 > img {
+        width: 45px;
+        height: 45px;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .container-h1 > h1{
+        font-size: 2rem;
+    }
+    .container-h1 > img {
+        width: 37.5px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container-h1 > h1{
+        font-size: 2.5rem;
+    }
+    .container-h1 > img {
+        width: 56.25px;
+        height: 60px;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+    }
+}
