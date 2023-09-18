@@ -6,7 +6,16 @@
     align-items: center;
 }
 
+.return {
+    margin-top: 20px;
+}
+
+.return > a{
+    color: yellow;
+}
+
 .title {
+    margin-top: 10px;
     width: 80%;
 }
 
@@ -27,6 +36,14 @@
     font-size: 1rem;
 }
 
+.text {
+    width: 80%;
+}
+
+.text > p {
+    font-size: 1rem;
+}
+
 @media screen and (min-width: 319px) {
     .title {
         margin-bottom: 15px;
@@ -36,6 +53,9 @@
     }
     .description {
         margin-top: 15px;
+    }
+    .text {
+        margin-top: 20px;
     }
 }
 
@@ -52,6 +72,9 @@
     }
     .description {
         margin-top: 20px;
+    }
+    .text {
+        margin-top: 25px;
     }
 }
 

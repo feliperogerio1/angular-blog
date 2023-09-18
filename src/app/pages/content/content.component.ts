@@ -14,6 +14,8 @@ export class ContentComponent implements OnInit {
   title:string = ""
   @Input()
   description:string = ""
+  @Input()
+  text:string = ""
   private id:string | null = "0"
 
   constructor(
@@ -33,5 +35,6 @@ export class ContentComponent implements OnInit {
     this.image = result.image
     this.title = result.title
     this.description = result.description
+    this.text = result.text
   }
 }

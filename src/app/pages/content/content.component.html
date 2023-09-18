@@ -1,5 +1,7 @@
 <div class="container-content">
-    <a [routerLink]="['']"> << voltar</a>
+    <div class="return">
+        <a [routerLink]="['']">Clique aqui para retornar a página inicial</a>
+    </div>
     <div class="title">
         <h1>{{ title }}</h1>
     </div>
@@ -8,5 +10,8 @@
     </div>
     <div class="description">
         <p>{{ description }}</p>
+    </div>
+    <div class="text">
+        <p>{{ text }}</p>
     </div>
 </div>
