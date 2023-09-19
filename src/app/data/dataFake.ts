@@ -17,14 +17,14 @@ export const dataFake = [
         "id":"3",
         "image":"assets/images/noticia-image-3.jpg",
         "title":"SEU HUMANO NÃO ENTENDE QUANDO VOCÊ ESTÁ COM FOME?",
-        "description":"Crise no mundo dos fofinhos",
+        "description":"CRISE NO MUNDO DOS FOFINHOS",
         "text":'Que os humanos são ótimos servos para o nosso povo, isso não há dúvidas. Mas o que fazer quando nem para isso o humano serve? Recebemos relatos vindo de todos os cantos do mundo de fofinhos indignados com os seus humanos. Aparentemente, os humanos não estão sendo mais capazes de dizer quando um fofinho está faminto, um crime de punição severa! Conversamos com o senado dos fofinhos e eles nos auxiliaram que em situações como essa, devemos pagar com a mesma moeda. Se nós não podemos comer, então os humanos também não podem. Encontre o esconderijo em que fica o alimento humano e traga para o senado!'
     },
     {
         "id":"4",
         "image":"assets/images/noticia-image-4.png",
         "title":"TENTANDO ENTRAR NO SHAPE PARA O VERÃO?",
-        "description":"Interessado em conquistar aquele corpo de dar inveja aos humanos?",
+        "description":"INTERESSADO EM CONQUISTAR AQUELE CORPO DE DAR INVEJA AOS HUMANOS?",
         "text":'A seguir, você irá encontrar o guia perfeito para um fofinho entrar em forma e curtir o verão da melhor forma possível. Nosso especialista em educação física listou os melhores exercícios para ter no seu treino. Confira a fala dele: "Vamos começar pelo supino com barra, um exercício fundamental para todos. Como você deve ter visto o nosso modelo na capa da reportagem, o supino é um ótimo exercício para ter um peitoral de respeito. O próximo exercício é o agachamento livre, perfeito para ter aquelas patinhas de jogador de futebol. Por fim, mas não menos importante, levantamento terra também deve estar presente. Se você é uma fofinha que almeja ter um bumbum na nuca, esse exercício fará maravilhas junto ao agachamento."'
     }
 ]
